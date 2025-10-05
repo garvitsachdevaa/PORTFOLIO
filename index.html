@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS_Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+        <div class="logo">Garvit.</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">&#9776;</div> <!-- 3 line menu for mobile -->
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm Garvit Sachdeva</h1>
+            <h2>I'm an aspiring Software Developer</h2>
+            <p>A dedicated student at Scaler School of Technology, building strong foundational expertise in frontend development. I'm driven to create intuitive and functional web applications.</p>
+            <a href="your_resume.pdf" class="button" download>Download Resume</a>
+            <a href="#projects" class="button secondary">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-me">
+        <div class="bio-container">
+            <img src="/images/profile.jpg" alt="garvit's photo" class="profile-photo">
+            
+            <div class="bio-text">
+                <h2>About Me</h2>
+                <p>Student at Scaler School of Technology building a strong foundation in Software Foundations and focused on mastering Frontend Development. Equipped with a logical approach from basic Java programming, I am passionate about creating clean, intuitive, and responsive User Interfaces. Currently seeking opportunities to translate academic knowledge into impactful real-world web experiences.</p>
+            </div>
+        </div>
+
+        <div class="skills-container">
+            <h3>My Skills</h3>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Java</li>
+                <li>Git/GitHub</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-showcase">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img src="/images/project1.webp" alt="Screenshot of Project Title 1">
+                <h3>TO-DO LIST</h3>
+                <p>	Add new tasks, mark tasks as complete and delete tasks. Uses the browser's local storage to save tasks between sessions.</p>
+                <p class="tech-stack">Tech: HTML, CSS, JavaScript</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="/images/project2.png" alt="Screenshot of Project Title 2">
+                <h3>SIMPLE CALCULATOR</h3>
+                <p>Performs basic arithmetic (+, –, ×, ÷). Uses CSS Grid for a clean, responsive keypad layout.</p>
+                <p class="tech-stack">Tech: HTML, CSS (Grid for button layout), Core JavaScript Logic</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="/images/project3.png" alt="Screenshot of Project Title 3">
+                <h3>MOVIE-SEARCH WEBSITE</h3>
+                <p>Users can type a movie title and see a list of results (posters, titles, descriptions) fetched live from a public API. Handles loading states and no-result messages.</p>
+                <p class="tech-stack">Tech:HTML, CSS, JavaScript, TheMovieDB API</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">GitHub</a>    
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>I'm currently looking for new opportunities. Feel free to connect with me!</p>
+        
+        <div class="social-links">
+            <a href="mailto:garvit.25bcs10184@sst.scaler.com" class="social-icon">Email</a>
+            <a href="https://www.linkedin.com/in/garvitsachdeva06" target="_blank" class="social-icon">LinkedIn</a>
+            <a href="https://github.com/garvitsachdevaa" target="_blank" class="social-icon">GitHub</a>
+            </div>
+
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Garvit Sachdeva. All rights reserved.</p>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/garvitsachdeva06" target="_blank">LinkedIn</a> 
+            <a href="https://github.com/garvitsachdevaa" target="_blank">Github</a>
+        </div>
+    </footer>
+
+</body>
+</html>
